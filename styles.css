@@ -1,0 +1,49 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.leftSideBar {
+    grid-row: span 9 / span 9;
+}
+
+.header {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;    
+    background: black;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 7 / span 7;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: red;
+}
+
+.div5 {
+    grid-row: span 7 / span 7;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: yellow;
+}
+        
+
+    .leftSideBar li {
+        list-style-type: none;
+        margin-top: 5%;
+
+    
+    }
+
+    .leftSideBar {
+        background : #1992D4;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: larger;
+        font-weight: 300;
+    }
+
